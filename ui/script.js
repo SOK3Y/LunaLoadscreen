@@ -19,7 +19,7 @@ window.addEventListener('message', (event) => {
             setTimeout(() => {
                 loadMessage.fadeOut(200);
                 setTimeout(() => {
-                    loadMessage.html(`<button id='joinServer'>Dołącz do gry</button>`);
+                    loadMessage.html(`<button id='joinServer'>Join to game</button>`);
                     $('.bottom-container').addClass('loaded');
                     loadMessage.fadeIn(200);
                     isLoaded = true;
